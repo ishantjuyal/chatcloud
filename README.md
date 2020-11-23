@@ -1,12 +1,16 @@
-Overview:
+# Overview:
 
 Chatclouds is a wordcloud library which allows you to create and save a wordcloud of your whatsapp chats. The library uses wordcloud library to generate images. The preprocessing of the text from the txt files are already taken care of. The only thing you need to do is to extract your chat from WhatsApp and then using that file in your python code.
 
-Importing chatclouds:
+# Installing chatclouds
+
+pip install -i https://test.pypi.org/simple/ chatclouds==0.0.2
+
+# Importing chatclouds:
 
 import chatclouds
 
-Functions:
+# Functions:
 
 1. show()
     Code:
