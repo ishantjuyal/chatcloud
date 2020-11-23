@@ -4,7 +4,7 @@ Chatclouds is a wordcloud library which allows you to create and save a wordclou
 
 # Installing chatclouds
 
-pip install -i https://test.pypi.org/simple/ chatclouds==0.0.2
+pip install -i https://test.pypi.org/simple/ chatclouds==0.0.3
 
 # Importing chatclouds
 
