@@ -41,3 +41,7 @@ import chatclouds
 
     What it does:
     common() function prints the 20 most frequently used word in the chat between two people. 
+    
+# Sample output
+
+![sample](https://github.com/ishantjuyal/chatcloud/blob/master/Example/sample.png)
