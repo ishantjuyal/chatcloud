@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+chatclouds/__init__.py
+chatclouds.egg-info/PKG-INFO
+chatclouds.egg-info/SOURCES.txt
+chatclouds.egg-info/dependency_links.txt
+chatclouds.egg-info/requires.txt
+chatclouds.egg-info/top_level.txt

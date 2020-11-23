@@ -9,11 +9,11 @@ classifiers = [
 ]
  
 setup(
-  name='chatcloud',
-  version='0.0.1',
+  name='chatclouds',
+  version='0.0.2',
   description='Allows you to make wordclouds for your Whatsapp Chats',
-  long_description=open('README.txt').read() + '\n\n' + open('CHANGELOG.txt').read(),
-  url='',  
+  long_description=open('README.md').read() + '\n\n' + open('CHANGELOG.txt').read(),
+  url='https://github.com/ishantjuyal/chatcloud',  
   author='Ishant Juyal',
   author_email='ishantnit@gmail.com',
   license='MIT', 
