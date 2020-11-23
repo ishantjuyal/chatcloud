@@ -6,8 +6,6 @@ Take a look at the library [here](https://test.pypi.org/project/chatclouds/0.0.4
 
 # Installing chatclouds
 
-pip install -i https://test.pypi.org/simple/ chatclouds==0.0.4
-
 ```
 pip install -i https://test.pypi.org/simple/ chatclouds==0.0.4
 ```
