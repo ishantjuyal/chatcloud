@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: chatclouds
-Version: 0.0.2
+Version: 0.0.4
 Summary: Allows you to make wordclouds for your Whatsapp Chats
 Home-page: https://github.com/ishantjuyal/chatcloud
 Author: Ishant Juyal
@@ -50,14 +50,9 @@ Description: Overview:
         
         ===========
         
-        0.0.1 (23/11/2020)
+        0.0.4 (23/11/2020)
         --------------------
-        - First Release
-        
-        0.0.2 (23/11/2020)
-        --------------------
-        - Second Release
-        
+        - Fourth Release
 Keywords: wordcloud
 Platform: UNKNOWN
 Classifier: Development Status :: 5 - Production/Stable

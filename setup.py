@@ -10,7 +10,7 @@ classifiers = [
  
 setup(
   name='chatclouds',
-  version='0.0.2',
+  version='0.0.4',
   description='Allows you to make wordclouds for your Whatsapp Chats',
   long_description=open('README.md').read() + '\n\n' + open('CHANGELOG.txt').read(),
   url='https://github.com/ishantjuyal/chatcloud',  
