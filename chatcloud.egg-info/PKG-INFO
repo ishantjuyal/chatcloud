@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: chatcloud
+Version: 0.0.1
+Summary: Allows you to make wordclouds for your Whatsapp Chats
+Home-page: UNKNOWN
+Author: Ishant Juyal
+Author-email: ishantnit@gmail.com
+License: MIT
+Description: This is a wordcloud library which allows you to create and save a wordcloud of your whatsapp chats
+        
+        
+        
+        Change Log 
+        
+        ===========
+        
+        0.0.1 (23/11/2020)
+        --------------------
+        - First Release
+        
+Keywords: wordcloud
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
