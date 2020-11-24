@@ -7,7 +7,7 @@ Take a look at the library [here](https://pypi.org/project/chatclouds/0.0.4/)
 # Installing chatclouds
 
 ```
-pip install chatclouds==0.0.4
+pip install chatclouds==0.0.5
 ```
 
 # Importing chatclouds
@@ -36,7 +36,17 @@ import chatclouds
     What it does:
     show() function saves a .png image of the WordCloud that has been formed from the chat after preprocessing the text and removing all the stopwords.
 
-3. common()
+3. plot_time()
+    Code:
+
+    from chatclouds import common
+    plot_time(filename)
+    # filename needs to be the name/ path of txt file containing your WhatsApp Chat. 
+
+    What it does:
+    plot_time() function plots and shows a bar plot of number of messages on the y axis and 1 hour time slots on x axis.  
+
+4. common()
     Code:
 
     from chatclouds import common
