@@ -62,4 +62,10 @@ A sample notebook showing how to use the library could be found [here](https://g
 
 # Sample output
 
+Sample output of the WordCloud:
+
 ![sample](https://github.com/ishantjuyal/chatcloud/blob/master/Example/sample.png)
+
+Sample output of the time analysis plot:
+
+![plot sample](https://github.com/ishantjuyal/chatcloud/blob/master/Example/plot_sample.png)
