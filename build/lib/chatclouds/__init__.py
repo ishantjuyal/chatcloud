@@ -66,6 +66,42 @@ def make_wordcloud(url):
     return(wordcloud)
 
 
+
+def time(url):
+    chat_file = open(url, encoding = "utf8")
+    chat_text = chat_file.read()
+    chat_list = chat_text.split('\n')
+
+    time_dict = {i:0 for i in range(24)}
+    for sentence in chat_list:
+        if len(sentence) > 0 and sentence[0].isdigit() == True:
+            time = sentence[10:18]
+            if 'am' in time and ':' in time:
+                ind = time.index(':')
+                hour = int(time[:ind])
+                if hour == 12:
+                    hour = 0
+                time_dict[hour] += 1
+            if 'pm' in time and ':' in time:
+                ind = time.index(':')
+                hour = int(time[:ind])
+                if hour != 12:
+                    hour = hour + 12
+                time_dict[hour] += 1
+    
+    time_list = list(range(24))
+    freq_list =[time_dict[i] for i in range(24)]
+    
+    plt.rcParams["figure.figsize"] = (12, 8)
+    plt.bar(time_list, freq_list, align='center')
+    
+    plt.xticks(time_list)
+    plt.xlabel("Time groups")
+    plt.ylabel("Frequency")
+    plt.title("Time Analysis")
+    plt.show()
+
+
 # Useful functions
 def show(url):
     wordcloud = make_wordcloud(url)
@@ -88,3 +124,6 @@ def common(url):
     print("20 most frequent used word in the chat are:")
     for i in range(len(common_20)):
         print(str(i+1) + '. ' + common_20[i])
+
+def plot_time(url):
+    time(url)
