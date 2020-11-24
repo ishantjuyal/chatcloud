@@ -41,10 +41,10 @@ import chatclouds
 
     from chatclouds import common
     plot_time(filename)
-    # filename needs to be the name/ path of txt file containing your WhatsApp Chat. 
+    (filename needs to be the name/ path of txt file containing your WhatsApp Chat)
 
     What it does:
-    plot_time() function plots and shows a bar plot of number of messages on the y axis and 1 hour time slots on x axis.  
+    plot_time() function shows a bar plot of number of messages with respect to 1 hour time slots.  
 
 4. common()
     Code:
