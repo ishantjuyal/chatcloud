@@ -7,7 +7,7 @@ Take a look at the library [here](https://pypi.org/project/chatclouds/0.0.4/)
 # Installing chatclouds
 
 ```
-pip install chatclouds==0.0.5
+pip install chatclouds
 ```
 
 # Importing chatclouds
